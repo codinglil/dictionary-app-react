@@ -5,7 +5,7 @@
 .search-for-invite {
   font-family: cursive;
   font-size: 20px;
-  color: rgb(62, 104, 220);
+  color: rgb(12, 68, 221);
   font-weight: 700;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .btn-danger {
-  background-color: rgb(206, 46, 46) !important;
+  background-color: rgb(233, 73, 45) !important;
   height: 40px;
   position: relative;
   top: -3px;
