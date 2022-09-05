@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background-color: rgb(110, 235, 193);
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   padding-top: 30px;
 }
 h1 {
@@ -17,4 +17,21 @@ img {
 footer {
   font-family: monospace;
   font-size: 13px;
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 56px;
+  }
+  main h3.search-for-invite {
+    font-size: 18px;
+  }
+  .word-definition {
+    font-size: 16px;
+  }
+  .Meaning p.examples {
+    font-size: 14px;
+  }
 }

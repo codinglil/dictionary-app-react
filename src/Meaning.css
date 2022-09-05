@@ -1,0 +1,42 @@
+h2.word {
+  text-align: left;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 15px;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.Meaning {
+  text-align: left;
+  background-color: rgb(193, 248, 229);
+  padding: 15px;
+  margin: 15px 15px 25px 15px;
+  border-radius: 10px;
+}
+.part-of-speech {
+  color: rgb(218, 57, 29);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+.word-definition {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+}
+.Meaning p.examples {
+  font-style: italic;
+  font-size: 18px;
+  color: rgb(12, 68, 221);
+  font-weight: 500;
+}
+
+@media (max-width: 650px) {
+  .word-definition {
+    font-size: 16px;
+  }
+  .Meaning p.examples {
+    font-size: 14px;
+  }
+}
