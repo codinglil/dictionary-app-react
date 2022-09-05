@@ -9,13 +9,13 @@ h2.word {
 
 .Meaning {
   text-align: left;
-  background-color: rgb(193, 248, 229);
+  background-color: white;
   padding: 15px;
   margin: 15px 15px 25px 15px;
   border-radius: 10px;
 }
 .part-of-speech {
-  color: rgb(218, 57, 29);
+  color: rgb(216, 105, 159);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
 }
@@ -26,17 +26,10 @@ h2.word {
   font-weight: 500;
 }
 .Meaning p.examples {
-  font-style: italic;
   font-size: 18px;
-  color: rgb(12, 68, 221);
-  font-weight: 500;
-}
+  opacity: 0.6;
+  font-weight: 400;
 
-@media (max-width: 650px) {
-  .word-definition {
-    font-size: 16px;
-  }
-  .Meaning p.examples {
-    font-size: 14px;
-  }
+  text-align: justify;
+  font-family: cursive;
 }

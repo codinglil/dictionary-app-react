@@ -1,6 +1,10 @@
+/* font-family: 'Estonia', cursive;
+font-family: 'Lakki Reddy', cursive;
+font-family: 'Ms Madi', cursive; */
+
 .App {
   text-align: center;
-  background-color: rgb(110, 235, 193);
+  background-color: rgb(204, 254, 192);
   padding-bottom: 50px;
   padding-top: 30px;
 }
@@ -9,10 +13,17 @@ h1 {
   font-size: 66px;
   margin: 40px auto 10px;
   font-weight: bold;
+  font-family: "Lakki Reddy", cursive;
+}
+h3.search-for-invite {
+  font-family: "Lakki Reddy", cursive;
+  font-weight: 500;
+  color: black;
 }
 
 img {
   max-height: 150px;
+  margin-bottom: 20px;
 }
 footer {
   font-family: monospace;
@@ -21,7 +32,7 @@ footer {
   font-weight: 700;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 630px) {
   h1 {
     font-size: 56px;
   }

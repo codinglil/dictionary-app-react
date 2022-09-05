@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import learningisfunGif from "./learningisfun.gif";
+import book1Gif from "./book1.gif";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -10,7 +10,7 @@ export default function App() {
         <header className="App-header">
           <h1>Dictionary</h1>
           <img
-            src={learningisfunGif}
+            src={book1Gif}
             alt="learning is fun gif"
             className="welcome-gif img-fluid"
           />
