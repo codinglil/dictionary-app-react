@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import book1Gif from "./book1.gif";
+import githubPng from "./github.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -21,7 +22,27 @@ export default function App() {
           </h3>
           <Dictionary />
         </main>
-        <footer>Coded by Lilia Gashin</footer>
+        <footer>
+          <a
+            href="https://github.com/codinglil/dictionary-app-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={githubPng}
+              alt="gitHub icon"
+              className="github-icon img-fluid"
+            ></img>
+          </a>{" "}
+          This app was coded by{" "}
+          <a
+            href="https://main--bespoke-marigold-070266.netlify.app/index.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Lilia Gashin
+          </a>{" "}
+        </footer>
       </div>
     </div>
   );
