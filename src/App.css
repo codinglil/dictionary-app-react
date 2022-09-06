@@ -54,4 +54,16 @@ footer {
   p.word-examples {
     font-size: 16px;
   }
+  div.synonym-list {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 5px;
+    padding: 8px;
+  }
+  div.antonym-list {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 5px;
+    padding: 8px;
+  }
 }
