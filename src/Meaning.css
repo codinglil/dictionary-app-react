@@ -32,3 +32,22 @@ h2.word {
   text-align: justify;
   font-family: cursive;
 }
+
+.synonym-list {
+  display: inline-block;
+  background-color: rgb(255, 161, 206);
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.antonym-list {
+  display: inline-block;
+  background-color: rgb(204, 254, 192);
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
