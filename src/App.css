@@ -5,7 +5,7 @@ font-family: 'Ms Madi', cursive; */
 .App {
   text-align: center;
   background-color: rgb(204, 254, 192);
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   padding-top: 30px;
 }
 h1 {
@@ -19,6 +19,7 @@ h3.search-for-invite {
   font-family: "Lakki Reddy", cursive;
   font-weight: 500;
   color: black;
+  font-size: 25px;
 }
 
 img {
@@ -28,8 +29,10 @@ img {
 footer {
   font-family: monospace;
   font-size: 13px;
-  margin-top: 40px;
+  margin-top: 10px;
   font-weight: 700;
+  position: relative;
+  bottom: -10px;
 }
 .github-icon {
   max-width: 30px;
@@ -45,10 +48,10 @@ footer {
   main h3.search-for-invite {
     font-size: 18px;
   }
-  .word-definition {
+  p.word-definition {
     font-size: 16px;
   }
-  .Meaning p.examples {
-    font-size: 14px;
+  p.word-examples {
+    font-size: 16px;
   }
 }

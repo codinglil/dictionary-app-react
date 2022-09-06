@@ -17,9 +17,7 @@ export default function App() {
           />
         </header>
         <main>
-          <h3 className="search-for-invite">
-            Let's search for your word together!
-          </h3>
+          <h3 className="search-for-invite">Let's search for your word!</h3>
           <Dictionary />
         </main>
         <footer>
