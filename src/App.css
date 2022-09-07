@@ -1,11 +1,12 @@
-/* font-family: 'Estonia', cursive;
+/* 
 font-family: 'Lakki Reddy', cursive;
-font-family: 'Ms Madi', cursive; */
+font-family: 'Handlee', cursive;
+font-family: 'Patrick Hand', cursive; */
 
 .App {
   text-align: center;
   background-color: rgb(204, 254, 192);
-  padding-bottom: 10px;
+  padding-bottom: 0;
   padding-top: 30px;
 }
 h1 {
@@ -29,10 +30,10 @@ img {
 footer {
   font-family: monospace;
   font-size: 13px;
-  margin-top: 10px;
+  margin-top: 0;
   font-weight: 700;
   position: relative;
-  bottom: -10px;
+  top: -10px;
 }
 .github-icon {
   max-width: 30px;
@@ -49,10 +50,10 @@ footer {
     font-size: 18px;
   }
   p.word-definition {
-    font-size: 16px;
+    font-size: 17px;
   }
   p.word-examples {
-    font-size: 16px;
+    font-size: 17px;
   }
   div.synonym-list {
     font-size: 13px;

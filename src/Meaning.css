@@ -26,11 +26,16 @@ h2.word {
   font-weight: 500;
 }
 .word-examples {
-  font-size: 18px;
+  font-size: 20px;
   opacity: 0.6;
-  font-weight: 400;
+  font-weight: 600;
   text-align: justify;
-  font-family: cursive;
+  font-family: "Handlee", cursive;
+}
+
+h5 {
+  font-family: "Patrick Hand", cursive;
+  color: rgb(10, 34, 219);
 }
 
 .synonym-list {
