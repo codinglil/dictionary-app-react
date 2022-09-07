@@ -5,14 +5,16 @@ h2.word {
   margin-left: 15px;
   font-size: 46px;
   font-weight: bold;
+  padding-top: 10px;
 }
 
 .Meaning {
   text-align: left;
   background-color: white;
   padding: 15px;
-  margin: 15px 15px 20px 15px;
+  margin: 30px 15px 20px 15px;
   border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(0 0 0 /10%);
 }
 .part-of-speech {
   color: rgb(216, 105, 159);
@@ -35,7 +37,7 @@ h2.word {
 
 h5 {
   font-family: "Patrick Hand", cursive;
-  color: rgb(10, 34, 219);
+  color: rgb(2, 72, 194);
 }
 
 .synonym-list {

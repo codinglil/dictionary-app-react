@@ -12,7 +12,7 @@ export default function Phonetics(props) {
       >
         🔊{" "}
       </a>{" "}
-      {props.phonetic.text}
+      <span className="text">{props.phonetic.text}</span>
     </div>
   );
 }
