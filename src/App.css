@@ -42,12 +42,15 @@ footer {
   border-radius: 50%;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 576px) {
   h1 {
     font-size: 56px;
   }
   main h3.search-for-invite {
     font-size: 18px;
+  }
+  .Results h2.word {
+    font-size: 36px;
   }
   p.word-definition {
     font-size: 17px;
