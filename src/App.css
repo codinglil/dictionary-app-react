@@ -29,11 +29,20 @@ img {
 }
 footer {
   font-family: monospace;
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 0;
   font-weight: 700;
   position: relative;
   top: -10px;
+}
+
+a.footer-name {
+  color: rgb(2, 72, 194);
+  text-decoration: none;
+  font-weight: 600;
+}
+a.footer-name:hover {
+  text-decoration: underline;
 }
 .github-icon {
   max-width: 30px;
@@ -69,5 +78,8 @@ footer {
     font-weight: 500;
     margin: 5px;
     padding: 8px;
+  }
+  footer {
+    font-size: 12px;
   }
 }

@@ -20,7 +20,7 @@ export default function Photos(props) {
             );
           })}
         </div>
-        <p className="picture-source">Source: pexels.com</p>
+        <p className="picture-source">Photos: pexels.com</p>
       </section>
     );
   } else {

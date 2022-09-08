@@ -37,6 +37,7 @@ export default function App() {
             href="https://main--bespoke-marigold-070266.netlify.app/index.html"
             target="_blank"
             rel="noreferrer"
+            className="footer-name"
           >
             Lilia Gashin
           </a>{" "}
